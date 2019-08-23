@@ -26,6 +26,16 @@ Download the project dependencies using
 npm install
 ```
 
+### Running
+
+To create a simple HTTP server that will serve your files on port 8080, run
+
+```
+npm start
+```
+
+Then, access `http://localhost:8080/src` to see the development version of the project or `http://localhost:8080/dist` to see the production version.
+
 ## Building
 
 The build process consists of a series of Gulp tasks such as bundling (CSS, JS) and minifying (HTML, CSS, JS). In order to do that, just run
