@@ -1,0 +1,18 @@
+<a href="#/home">Back to Home Page</a>
+<h1>Items</h1>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Color</th>	
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="i in items track by $index"> 
+			<td ng-bind="::i.name"></td>
+			<td ng-bind="::(i.color | uppercase)"></td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+<add-button list="items" item-to-be-added="{'name': 'My Item', 'color': 'green'}" title="Add generic item to the list"></add-button>
