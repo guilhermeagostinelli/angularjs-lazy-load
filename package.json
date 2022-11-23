@@ -24,7 +24,7 @@
     "gulp-uglify": "^3.0.1",
     "http-server": "^0.11.1",
     "jasmine-core": "^3.2.1",
-    "karma": "^3.0.0",
+    "karma": "^6.4.1",
     "karma-jasmine": "^1.1.2",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-requirejs": "^1.1.0",
